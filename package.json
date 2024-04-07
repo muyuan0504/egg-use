@@ -1,0 +1,23 @@
+{
+    "name": "egg-use",
+    "version": "1.0.0",
+    "description": "from zero to one, relearn eggjs",
+    "main": "index.js",
+    "scripts": {
+        "dev": "egg-bin dev",
+        "test": "echo eggjs"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "engines": {
+        "node": ">=18.16.0",
+        "pnpm": ">=8.15.6"
+    },
+    "dependencies": {
+        "egg": "^3.21.0"
+    },
+    "devDependencies": {
+        "egg-bin": "^6.8.1"
+    }
+}
