@@ -18,6 +18,6 @@ npm i pnpm -g
 
 pnpm config set registry https://registry.npmmirror.com
 
-# 安装命令  pnpm add [package]
+# 安装命令  pnpm add [package] -D(安装开发依赖包)
 
 ```

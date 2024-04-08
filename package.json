@@ -5,7 +5,8 @@
     "main": "index.js",
     "scripts": {
         "dev": "egg-bin dev",
-        "test": "echo eggjs"
+        "test": "egg-bin test",
+        "log": "echo eggjs"
     },
     "keywords": [],
     "author": "",
@@ -15,9 +16,12 @@
         "pnpm": ">=8.15.6"
     },
     "dependencies": {
-        "egg": "^3.21.0"
+        "egg": "^3.21.0",
+        "egg-view-nunjucks": "^2.3.0",
+        "moment": "^2.30.1"
     },
     "devDependencies": {
-        "egg-bin": "^6.8.1"
+        "egg-bin": "^6.8.1",
+        "egg-mock": "^5.10.9"
     }
 }
