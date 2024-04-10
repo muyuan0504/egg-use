@@ -1,5 +1,7 @@
 /**
  * EGGJS 中间件配置
+ * 中间件的使用需要添加文件同名配置到[middleware]集合中，见 config\config.default.js
+ * 
  * 当用户UA命中 options.ua 时，返回 'Go away, robot. '
  *
  * windows 执行 curl 使用 cmd 兼容性更好，用 powerShell 会有奇奇怪怪的异常
