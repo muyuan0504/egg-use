@@ -1,6 +1,8 @@
 /**
  * EGGJS 配置文件，可以自动合并应用、插件、框架的配置，按顺序覆盖，且可以根据环境维护不同的配置
  * 合并后的配置可直接从 app.config 获取
+ * 
+ * config/config.{env}.js 用于编写配置文件
  *
  * 支持按环境变量加载不同的配置文件，例如 config.local.js、config.prod.js 等
  *
