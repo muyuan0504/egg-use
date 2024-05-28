@@ -6,4 +6,5 @@ module.exports = (app) => {
     router.get('/app', controller.home.app)
     router.get('/render', controller.home.render)
     router.get('/news', controller.news.list)
+    router.get('log', controller.logger.index)
 }
